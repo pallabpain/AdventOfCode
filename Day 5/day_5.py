@@ -71,6 +71,6 @@ nice_words_2 = filter(is_word_nice_part_2, new_words)
 
 print nice_words_2
 
-# wretched1 has a beter solution using regex 
+# wretched1 has a better solution using regex 
 # https://github.com/wretched1/adventofcode/blob/master/nice_strings.py
 # https://github.com/wretched1/adventofcode/blob/master/nice_strings_p2.py
