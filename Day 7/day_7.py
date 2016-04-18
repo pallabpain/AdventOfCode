@@ -3,6 +3,7 @@ instructions = {instruction[1].strip(): instruction[0].strip().split(' ')
 				for instruction in [line.strip('\n').split('->') 
 					for line in open("input.txt").readlines()]}
 
+# For storing signal values for all the instructions
 signals = {}
 
 def get_signal(wire):
