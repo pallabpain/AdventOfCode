@@ -1,5 +1,5 @@
-from collections import defaultdict
 from itertools import permutations
+from collections import defaultdict
 
 def get_route(r, g, op):
     return op([sum(map(lambda a, b: g[a][b], x[:-1], x[1:])) for x in r])
